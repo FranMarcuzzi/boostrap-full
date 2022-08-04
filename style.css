@@ -199,3 +199,15 @@ div .logo span{
 }
 
 
+/* ANIMACIONES */
+
+.navegacion ul li:hover{
+    transform: translateY(10px) scale(1.05);
+    background-color: #d80032 ;
+    transition: 1s;
+    border-radius: 20%;
+}
+
+.logo{
+    animation: hinge  2 alternate;
+}
