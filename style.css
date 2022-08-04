@@ -202,12 +202,17 @@ div .logo span{
 /* ANIMACIONES */
 
 .navegacion ul li:hover{
-    transform: translateY(10px) scale(1.05);
+    transform: scale(1.1);
     background-color: #d80032 ;
-    transition: 1s;
-    border-radius: 20%;
+    transition: .5s;
 }
+.navegacion ul li:hover a{
+    color: #ffffff;
+    font-weight:600;
 
+}
 .logo{
     animation: hinge  2 alternate;
+    animation-delay: 3s;
 }
+
